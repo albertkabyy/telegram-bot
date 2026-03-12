@@ -1,2 +1,4 @@
-httpx
 python-telegram-bot
+httpx
+gspread
+oauth2client
