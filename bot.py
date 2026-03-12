@@ -52,25 +52,29 @@ def connect_sheets():
         else:
             creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_PATH, scope)
 
-        creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_PATH, scope)
         client = gspread.authorize(creds)
         spreadsheet = client.open_by_key(SPREADSHEET_ID)
+
         try:
             sheet_leads = spreadsheet.worksheet("Заявки")
         except:
             sheet_leads = spreadsheet.add_worksheet(title="Заявки", rows=1000, cols=10)
             sheet_leads.append_row(["№", "Дата", "Час запису", "Ім'я", "Телефон", "Послуга", "Дата прийому", "Час прийому", "Telegram ID"])
+
         try:
             sheet_stats = spreadsheet.worksheet("Статистика")
         except:
             sheet_stats = spreadsheet.add_worksheet(title="Статистика", rows=20, cols=3)
             sheet_stats.append_row(["Показник", "Значення", "Оновлено"])
+
         try:
             sheet_slots = spreadsheet.worksheet("Розклад")
         except:
             sheet_slots = spreadsheet.add_worksheet(title="Розклад", rows=1000, cols=3)
             sheet_slots.append_row(["Дата", "Час", "Статус"])
+
         return sheet_leads, sheet_stats, sheet_slots
+
     except Exception as e:
         print(f"⚠️ Помилка підключення до Google Sheets: {e}")
         return None, None, None
