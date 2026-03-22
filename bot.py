@@ -147,7 +147,7 @@ CONTENT = {
         "support": (
             "🆘 *Support*\n\n"
             "Our support team is available 24/7!\n\n"
-            f"💬 Contact directly: @nektarinx\n"
+            f"💬 Contact directly: @123\n"
             "🌐 Live chat on b.site\n"
             "📧 support@b.site\n\n"
             "Or press the button below to call a manager 👇"
@@ -380,7 +380,7 @@ CONTENT = {
         "support": (
             "🆘 *Поддержка 24/7*\n\n"
             "Наша команда всегда готова помочь!\n\n"
-            "💬 Написать напрямую: @nektarinx\n"
+            "💬 Написать напрямую: @123\n"
             "🌐 Live chat на b.site\n"
             "📧 support@b.site\n\n"
             "Или нажми кнопку ниже 👇"
