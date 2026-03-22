@@ -14,7 +14,7 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-SUPPORT_USERNAME = "@nektarinx"
+SUPPORT_USERNAME = "@123"
 ADMIN_ID = 694342459
 ADMIN_IDS = [694342459]
 
