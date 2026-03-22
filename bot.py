@@ -202,7 +202,7 @@ CONTENT = {
             "💧 Faucet, 📈 Rakeback, 👥 Afiliados"
         ),
         "faq": "❓ *Preguntas frecuentes*\n\n💬 ¡Escribe tu pregunta!",
-        "support": "🆘 *Soporte 24/7*\n\n💬 @nektarinx\n🌐 b.site live chat",
+        "support": "🆘 *Soporte 24/7*\n\n💬 @123\n🌐 b.site live chat",
         "thinking": "⏳ Pensando...",
         "lang_select": "🌍 Selecciona tu idioma:",
         "lang_set": "✅ ¡Idioma: Español!",
@@ -250,7 +250,7 @@ CONTENT = {
             "💧 Faucet, 📈 Rakeback, 👥 Afiliados"
         ),
         "faq": "❓ *Perguntas Frequentes*\n\n💬 Digite sua pergunta!",
-        "support": "🆘 *Suporte 24/7*\n\n💬 @nektarinx\n🌐 b.site live chat",
+        "support": "🆘 *Suporte 24/7*\n\n💬 @123\n🌐 b.site live chat",
         "thinking": "⏳ Pensando...",
         "lang_select": "🌍 Selecione seu idioma:",
         "lang_set": "✅ Idioma: Português!",
@@ -298,7 +298,7 @@ CONTENT = {
             "💧 Faucet, 📈 Rakeback, 👥 Affiliates"
         ),
         "faq": "❓ *FAQ*\n\n💬 Schreib deine Frage!",
-        "support": "🆘 *Support 24/7*\n\n💬 @nektarinx\n🌐 b.site Live-Chat",
+        "support": "🆘 *Support 24/7*\n\n💬 @123\n🌐 b.site Live-Chat",
         "thinking": "⏳ Denke nach...",
         "lang_select": "🌍 Sprache auswählen:",
         "lang_set": "✅ Sprache: Deutsch!",
