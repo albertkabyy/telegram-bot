@@ -752,11 +752,14 @@ async def handle_message(update: Update, context):
         await update.message.reply_text(c["cases"], reply_markup=get_main_keyboard(lang), parse_mode="Markdown")
         return
 
-    # ── Games — з deep link кнопками ──
+# ── Games — одне повідомлення з inline кнопками ──
     games_btns = {"en": "🎯 Games", "es": "🎯 Juegos", "pt": "🎯 Jogos", "de": "🎯 Spiele", "ru": "🎯 Игры"}
     if user_text == games_btns.get(lang):
-        await update.message.reply_text(c["games"], reply_markup=get_main_keyboard(lang), parse_mode="Markdown")
-        await update.message.reply_text(c["play_now"], reply_markup=get_games_inline_keyboard(), parse_mode="Markdown")
+        await update.message.reply_text(
+            c["games"],
+            reply_markup=get_games_inline_keyboard(),
+            parse_mode="Markdown"
+        )
         return
 
     # ── Deposit ──
